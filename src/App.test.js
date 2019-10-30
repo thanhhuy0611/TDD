@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App, {Counter} from './App';
+import App from './App';
+import Counter from './Counter'
 import { shallow } from 'enzyme';
 
 import { configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import { wrap } from 'module';
 configure({ adapter: new Adapter() });        
 
 
